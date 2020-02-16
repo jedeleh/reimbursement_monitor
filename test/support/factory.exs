@@ -7,7 +7,7 @@ defmodule ReimbursementMonitor.Test.Support.Factory do
       Context.create_procedure(
         %{
           name: "NeatO insurance",
-          polling_interval: 3124
+          polling_interval: 10
         }
       )
 

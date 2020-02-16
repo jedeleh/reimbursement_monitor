@@ -1,13 +1,12 @@
 defmodule ReimbursementMonitor.Schemas.ReimbursementAmountTest do
   use ExUnit.Case
-  doctest ReimbursementMonitor.Schemas.ReimbursementAmount
+  # doctest ReimbursementMonitor.Schemas.ReimbursementAmount
 
   alias ReimbursementMonitor.Schemas.ReimbursementAmount
 
   test "unhappy with a missing required parameter" do
     params = %{
-      payor_id: 23,
-      amount: 2.99
+      payor_id: 23
     }
 
     changeset = 
